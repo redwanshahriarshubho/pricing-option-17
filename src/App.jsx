@@ -19,7 +19,7 @@ function App() {
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-cyan-500 rounded-full mix-blend-soft-light filter blur-3xl opacity-20 animate-pulse"></div>
       </div>
 
-      <header className="sticky top-0 z-50 backdrop-blur-lg bg-gray-900/80 border-b border-gray-700/50">
+      <header className="sticky top-0 z-50 backdrop-blur-lg bg-gray-900/80 border-b border-gray-700/50 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <NavBar />
           {/* <DaisyNav /> */}
@@ -40,8 +40,8 @@ function App() {
         {/* Dashboard Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           {/* Pricing Options Card */}
-          <div className="bg-gray-800/30 backdrop-blur-lg rounded-2xl border border-gray-700/50 shadow-xl overflow-hidden transition-all duration-300 hover:border-cyan-500/30 hover:shadow-cyan-500/10">
-            <div className="p-6 border-b border-gray-700/50">
+          <div className="bg-gray-800/30 backdrop-blur-lg rounded-2xl border border-gray-700/50 shadow-xl overflow-hidden transition-all duration-300 hover:border-cyan-500/30 hover:shadow-cyan-500/20 transform hover:-translate-y-1">
+            <div className="p-6 border-b border-gray-700/50 bg-gradient-to-r from-cyan-900/20 to-transparent">
               <h2 className="text-2xl font-bold text-cyan-400 flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -68,8 +68,8 @@ function App() {
           </div>
 
           {/* Marks Chart Card */}
-          <div className="bg-gray-800/30 backdrop-blur-lg rounded-2xl border border-gray-700/50 shadow-xl overflow-hidden transition-all duration-300 hover:border-purple-500/30 hover:shadow-purple-500/10">
-            <div className="p-6 border-b border-gray-700/50">
+          <div className="bg-gray-800/30 backdrop-blur-lg rounded-2xl border border-gray-700/50 shadow-xl overflow-hidden transition-all duration-300 hover:border-purple-500/30 hover:shadow-purple-500/20 transform hover:-translate-y-1">
+            <div className="p-6 border-b border-gray-700/50 bg-gradient-to-r from-purple-900/20 to-transparent">
               <h2 className="text-2xl font-bold text-purple-400 flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -97,8 +97,8 @@ function App() {
         </div>
 
         {/* Results Chart Section */}
-        <div className="bg-gray-800/30 backdrop-blur-lg rounded-2xl border border-gray-700/50 shadow-xl overflow-hidden transition-all duration-300 hover:border-gray-600/50">
-          <div className="p-6 border-b border-gray-700/50">
+        <div className="bg-gray-800/30 backdrop-blur-lg rounded-2xl border border-gray-700/50 shadow-xl overflow-hidden transition-all duration-300 hover:border-gray-600/50 transform hover:-translate-y-1">
+          <div className="p-6 border-b border-gray-700/50 bg-gradient-to-r from-green-900/20 to-transparent">
             <h2 className="text-2xl font-bold text-green-400 flex items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -113,7 +113,7 @@ function App() {
         </div>
       </main>
 
-      <footer className="relative z-10 border-t border-gray-800 mt-16">
+      <footer className="relative z-10 border-t border-gray-800 mt-16 bg-gradient-to-t from-gray-900/80 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-gray-500">
             <p>© 2023 Analytics Dashboard. All rights reserved.</p>
