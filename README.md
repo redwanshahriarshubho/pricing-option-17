@@ -1,9 +1,7 @@
 
-
 # Analytics Dashboard
 
 A modern, responsive analytics dashboard built with React, featuring pricing options, performance metrics, and results analysis with a stunning dark theme and glassmorphism effects.
-
 
 ## Features
 
@@ -22,8 +20,8 @@ A modern, responsive analytics dashboard built with React, featuring pricing opt
 - **React**: JavaScript library for building user interfaces
 - **Axios**: Promise-based HTTP client for fetching data
 - **Tailwind CSS**: Utility-first CSS framework for styling
-- **React Router**: For navigation (if implemented)
-- **Chart.js**: For data visualization (if used in components)
+- **React Router**: For navigation
+- **Chart.js**: For data visualization
 
 
 
